@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.28)  11 NOV 2025 22:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.28)  11 NOV 2025 22:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"e:/Cambridge_Engineering/Part IIA/Coursework/3F1_Lab_Flight_Control/Report/FTR.tex"
-(e:/Cambridge_Engineering/Part IIA/Coursework/3F1_Lab_Flight_Control/Report/FTR.tex
+**"e:/Cambridge_Engineering/Part IIA/Coursework/3F1_Lab_Flight_Control/3F1_flight_control-main/Report/FTR.tex"
+(e:/Cambridge_Engineering/Part IIA/Coursework/3F1_Lab_Flight_Control/3F1_flight_control-main/Report/FTR.tex
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-09>
 (d:/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -491,7 +491,7 @@ Package caption Info: New subtype `subfigure' on input line 238.
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count322
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 24.
+Package hyperref Info: Option `colorlinks' set `true' on input line 25.
  (d:/texlive/2024/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen294
 \WF@size=\dimen295
@@ -503,27 +503,34 @@ Package: wrapfig 2003/01/31  v 3.6
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count324
 \l__pdf_internal_box=\box67
-) (./FTR.aux)
+) (./FTR.aux
+
+LaTeX Warning: Label `fig:t1' multiply defined.
+
+
+LaTeX Warning: Label `fig:t4' multiply defined.
+
+)
 \openout1 = `FTR.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
  (d:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count325
@@ -543,18 +550,19 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (d:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Info: Redefining \celsius on input line 27.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 27.
+LaTeX Info: Redefining \celsius on input line 28.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 28.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 27.
-Package gensymb Info: Using \Omega for \ohm on input line 27.
+LaTeX Info: Redefining \ohm on input line 28.
+Package gensymb Info: Using \Omega for \ohm on input line 28.
 
 Package gensymb Warning: Not defining \micro.
 
-Package hyperref Info: Link coloring ON on input line 27.
+Package hyperref Info: Link coloring ON on input line 28.
+(./FTR.out) (./FTR.out)
 \@outlinefile=\write4
 \openout4 = `FTR.out'.
 
@@ -566,439 +574,170 @@ Package caption Info: End \AtBeginDocument code.
 [1
 
 {d:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Warning: Citation `cued' on page 2 undefined on input line 73.
-
-
-LaTeX Warning: Reference `fig:flowdiagram' on page 2 undefined on input line 76.
-
-
-LaTeX Warning: File `flowdiagram.png' not found on input line 81.
-
-
-e:/Cambridge_Engineering/Part IIA/Coursework/3F1_Lab_Flight_Control/Report/FTR.tex:81: Package pdftex.def Error: File `flowdiagram.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.81 ...newidth, keepaspectratio]{flowdiagram.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 87.
-(d:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+<../Figures/flowdiagram.png, id=180, 931.48pt x 270.00874pt>
+File: ../Figures/flowdiagram.png Graphic file (type png)
+<use ../Figures/flowdiagram.png>
+Package pdftex.def Info: ../Figures/flowdiagram.png  used on input line 82.
+(pdftex.def)             Requested size: 290.22105pt x 84.12619pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 88.
+ (d:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 87.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 88.
  (d:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-[2]
+[2 <../Figures/flowdiagram.png>]
+<../Figures/Figure1.png, id=197, 394.5942pt x 339.669pt>
+File: ../Figures/Figure1.png Graphic file (type png)
+<use ../Figures/Figure1.png>
+Package pdftex.def Info: ../Figures/Figure1.png  used on input line 112.
+(pdftex.def)             Requested size: 217.6621pt x 187.3679pt.
+<../Figures/Figure2.png, id=198, 421.3341pt x 350.5095pt>
+File: ../Figures/Figure2.png Graphic file (type png)
+<use ../Figures/Figure2.png>
+Package pdftex.def Info: ../Figures/Figure2.png  used on input line 119.
+(pdftex.def)             Requested size: 217.6621pt x 181.0733pt.
+<../Figures/Figure3.png, id=199, 385.9218pt x 339.669pt>
+File: ../Figures/Figure3.png Graphic file (type png)
+<use ../Figures/Figure3.png>
+Package pdftex.def Info: ../Figures/Figure3.png  used on input line 131.
+(pdftex.def)             Requested size: 193.47577pt x 170.29018pt.
+
+
+[3 <../Figures/Figure1.png> <../Figures/Figure2.png> <../Figures/Figure3.png>]
+<../Figures/Figure4.png, id=217, 394.5942pt x 339.669pt>
+File: ../Figures/Figure4.png Graphic file (type png)
+<use ../Figures/Figure4.png>
+Package pdftex.def Info: ../Figures/Figure4.png  used on input line 154.
+(pdftex.def)             Requested size: 193.47577pt x 166.5481pt.
+<../Figures/Figure5.png, id=218, 395.3169pt x 339.669pt>
+File: ../Figures/Figure5.png Graphic file (type png)
+<use ../Figures/Figure5.png>
+Package pdftex.def Info: ../Figures/Figure5.png  used on input line 161.
+(pdftex.def)             Requested size: 193.47577pt x 166.23712pt.
+<../Figures/Figure6.png, id=219, 421.3341pt x 350.5095pt>
+File: ../Figures/Figure6.png Graphic file (type png)
+<use ../Figures/Figure6.png>
+Package pdftex.def Info: ../Figures/Figure6.png  used on input line 171.
+(pdftex.def)             Requested size: 193.47577pt x 160.95287pt.
+
+
+[4 <../Figures/Figure4.png> <../Figures/Figure5.png> <../Figures/Figure6.png>]
+<../Figures/Figure7.png, id=235, 394.5942pt x 339.669pt>
+File: ../Figures/Figure7.png Graphic file (type png)
+<use ../Figures/Figure7.png>
+Package pdftex.def Info: ../Figures/Figure7.png  used on input line 190.
+(pdftex.def)             Requested size: 193.47577pt x 166.5481pt.
+<../Figures/Figure8.png, id=236, 394.5942pt x 339.669pt>
+File: ../Figures/Figure8.png Graphic file (type png)
+<use ../Figures/Figure8.png>
+Package pdftex.def Info: ../Figures/Figure8.png  used on input line 197.
+(pdftex.def)             Requested size: 193.47577pt x 166.5481pt.
+<../Figures/Figure9.png, id=237, 519.6213pt x 350.5095pt>
+File: ../Figures/Figure9.png Graphic file (type png)
+<use ../Figures/Figure9.png>
+Package pdftex.def Info: ../Figures/Figure9.png  used on input line 206.
+(pdftex.def)             Requested size: 266.03473pt x 179.45811pt.
+<../Figures/Figure10.png, id=238, 409.0482pt x 339.669pt>
+File: ../Figures/Figure10.png Graphic file (type png)
+<use ../Figures/Figure10.png>
+Package pdftex.def Info: ../Figures/Figure10.png  used on input line 213.
+(pdftex.def)             Requested size: 193.47577pt x 160.65512pt.
+
+
+[5 <../Figures/Figure7.png> <../Figures/Figure8.png> <../Figures/Figure9.png> <../Figures/Figure10.png>]
+<../Figures/Figure11.png, id=249, 394.5942pt x 312.2064pt>
+File: ../Figures/Figure11.png Graphic file (type png)
+<use ../Figures/Figure11.png>
+Package pdftex.def Info: ../Figures/Figure11.png  used on input line 234.
+(pdftex.def)             Requested size: 217.6621pt x 172.21902pt.
+<../Figures/Figure12.png, id=250, 394.5942pt x 327.3831pt>
+File: ../Figures/Figure12.png Graphic file (type png)
+<use ../Figures/Figure12.png>
+Package pdftex.def Info: ../Figures/Figure12.png  used on input line 241.
+(pdftex.def)             Requested size: 217.6621pt x 180.59077pt.
+<../Figures/Figure13.png, id=252, 385.9218pt x 339.669pt>
+File: ../Figures/Figure13.png Graphic file (type png)
+<use ../Figures/Figure13.png>
+Package pdftex.def Info: ../Figures/Figure13.png  used on input line 262.
+(pdftex.def)             Requested size: 217.6621pt x 191.58163pt.
+<../Figures/Figure14.png, id=253, 410.4936pt x 327.3831pt>
+File: ../Figures/Figure14.png Graphic file (type png)
+<use ../Figures/Figure14.png>
+Package pdftex.def Info: ../Figures/Figure14.png  used on input line 269.
+(pdftex.def)             Requested size: 217.6621pt x 173.59213pt.
+
+
+[6 <../Figures/Figure11.png> <../Figures/Figure12.png>]
+<../Figures/Figure15.png, id=264, 394.5942pt x 339.669pt>
+File: ../Figures/Figure15.png Graphic file (type png)
+<use ../Figures/Figure15.png>
+Package pdftex.def Info: ../Figures/Figure15.png  used on input line 289.
+(pdftex.def)             Requested size: 241.84842pt x 208.18771pt.
+<../Figures/Figure_FTR_1.png, id=265, 394.5942pt x 312.2064pt>
+File: ../Figures/Figure_FTR_1.png Graphic file (type png)
+<use ../Figures/Figure_FTR_1.png>
+Package pdftex.def Info: ../Figures/Figure_FTR_1.png  used on input line 298.
+(pdftex.def)             Requested size: 241.84842pt x 191.35553pt.
+<../Figures/Figure_FTR_2.png, id=266, 394.5942pt x 327.3831pt>
+File: ../Figures/Figure_FTR_2.png Graphic file (type png)
+<use ../Figures/Figure_FTR_2.png>
+Package pdftex.def Info: ../Figures/Figure_FTR_2.png  used on input line 307.
+(pdftex.def)             Requested size: 217.6621pt x 180.59077pt.
+<../Figures/Figure_FTR_3.png, id=267, 394.5942pt x 327.3831pt>
+File: ../Figures/Figure_FTR_3.png Graphic file (type png)
+<use ../Figures/Figure_FTR_3.png>
+Package pdftex.def Info: ../Figures/Figure_FTR_3.png  used on input line 314.
+(pdftex.def)             Requested size: 217.6621pt x 180.59077pt.
 
-LaTeX Warning: Reference `fig:fig1' on page 3 undefined on input line 105.
 
+[7 <../Figures/Figure13.png> <../Figures/Figure14.png>]
 
-LaTeX Warning: File `Figure1.png' not found on input line 111.
+[8 <../Figures/Figure15.png> <../Figures/Figure_FTR_1.png>]
 
-
-e:/Cambridge_Engineering/Part IIA/Coursework/3F1_Lab_Flight_Control/Report/FTR.tex:111: Package pdftex.def Error: File `Figure1.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.111 ...degraphics[width=\textwidth]{Figure1.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figure2.png' not found on input line 118.
-
-
-e:/Cambridge_Engineering/Part IIA/Coursework/3F1_Lab_Flight_Control/Report/FTR.tex:118: Package pdftex.def Error: File `Figure2.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.118 ...degraphics[width=\textwidth]{Figure2.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figure3.png' not found on input line 130.
-
-
-e:/Cambridge_Engineering/Part IIA/Coursework/3F1_Lab_Flight_Control/Report/FTR.tex:130: Package pdftex.def Error: File `Figure3.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.130 ...\linewidth, keepaspectratio]{Figure3.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Reference `fig:fig2' on page 3 undefined on input line 138.
-
-
-LaTeX Warning: Reference `fig:fig3' on page 3 undefined on input line 140.
-
-
-
-[3]
-
-LaTeX Warning: Reference `fig:fig4' on page 4 undefined on input line 147.
-
-
-LaTeX Warning: Reference `fig:fig5' on page 4 undefined on input line 147.
-
-
-LaTeX Warning: File `Figure4.png' not found on input line 153.
-
-
-e:/Cambridge_Engineering/Part IIA/Coursework/3F1_Lab_Flight_Control/Report/FTR.tex:153: Package pdftex.def Error: File `Figure4.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.153 ...degraphics[width=\textwidth]{Figure4.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figure5.png' not found on input line 160.
-
-
-e:/Cambridge_Engineering/Part IIA/Coursework/3F1_Lab_Flight_Control/Report/FTR.tex:160: Package pdftex.def Error: File `Figure5.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.160 ...degraphics[width=\textwidth]{Figure5.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figure6.png' not found on input line 170.
-
-
-e:/Cambridge_Engineering/Part IIA/Coursework/3F1_Lab_Flight_Control/Report/FTR.tex:170: Package pdftex.def Error: File `Figure6.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.170 ...degraphics[width=\textwidth]{Figure6.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Reference `fig:fig6' on page 4 undefined on input line 179.
-
-
-
-[4]
-
-[5]
-
-LaTeX Warning: Reference `fig:fig7' on page 6 undefined on input line 182.
-
-
-LaTeX Warning: Reference `fig:fig8' on page 6 undefined on input line 182.
-
-
-LaTeX Warning: Reference `fig:fig9' on page 6 undefined on input line 184.
-
-
-LaTeX Warning: Reference `fig:fig10' on page 6 undefined on input line 184.
-
-
-LaTeX Warning: File `Figure7.png' not found on input line 189.
-
-
-e:/Cambridge_Engineering/Part IIA/Coursework/3F1_Lab_Flight_Control/Report/FTR.tex:189: Package pdftex.def Error: File `Figure7.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.189 ...degraphics[width=\textwidth]{Figure7.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figure8.png' not found on input line 196.
-
-
-e:/Cambridge_Engineering/Part IIA/Coursework/3F1_Lab_Flight_Control/Report/FTR.tex:196: Package pdftex.def Error: File `Figure8.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.196 ...degraphics[width=\textwidth]{Figure8.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figure9.png' not found on input line 205.
-
-
-e:/Cambridge_Engineering/Part IIA/Coursework/3F1_Lab_Flight_Control/Report/FTR.tex:205: Package pdftex.def Error: File `Figure9.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.205 ...degraphics[width=\textwidth]{Figure9.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figure10.png' not found on input line 212.
-
-
-e:/Cambridge_Engineering/Part IIA/Coursework/3F1_Lab_Flight_Control/Report/FTR.tex:212: Package pdftex.def Error: File `Figure10.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.212 ...egraphics[width=\textwidth]{Figure10.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Reference `fig:fig11' on page 6 undefined on input line 227.
-
-
-LaTeX Warning: File `Figure11.png' not found on input line 233.
-
-
-e:/Cambridge_Engineering/Part IIA/Coursework/3F1_Lab_Flight_Control/Report/FTR.tex:233: Package pdftex.def Error: File `Figure11.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.233 ...egraphics[width=\textwidth]{Figure11.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figure12.png' not found on input line 240.
-
-
-e:/Cambridge_Engineering/Part IIA/Coursework/3F1_Lab_Flight_Control/Report/FTR.tex:240: Package pdftex.def Error: File `Figure12.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.240 ...egraphics[width=\textwidth]{Figure12.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Reference `fig:fig11' on page 6 undefined on input line 255.
-
-
-LaTeX Warning: File `Figure13.png' not found on input line 261.
-
-
-e:/Cambridge_Engineering/Part IIA/Coursework/3F1_Lab_Flight_Control/Report/FTR.tex:261: Package pdftex.def Error: File `Figure13.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.261 ...egraphics[width=\textwidth]{Figure13.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figure14.png' not found on input line 268.
-
-
-e:/Cambridge_Engineering/Part IIA/Coursework/3F1_Lab_Flight_Control/Report/FTR.tex:268: Package pdftex.def Error: File `Figure14.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.268 ...egraphics[width=\textwidth]{Figure14.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Reference `fig:fig13' on page 6 undefined on input line 282.
-
-
-LaTeX Warning: File `Figure15.png' not found on input line 288.
-
-
-e:/Cambridge_Engineering/Part IIA/Coursework/3F1_Lab_Flight_Control/Report/FTR.tex:288: Package pdftex.def Error: File `Figure15.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.288 ...aphics[width=0.5\textwidth]{Figure15.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figure_FTR_1.png' not found on input line 297.
-
-
-e:/Cambridge_Engineering/Part IIA/Coursework/3F1_Lab_Flight_Control/Report/FTR.tex:297: Package pdftex.def Error: File `Figure_FTR_1.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.297 ...cs[width=0.5\textwidth]{Figure_FTR_1.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[6]
-
-[7]
-
-[8]
-
-LaTeX Warning: File `Figure_FTR_2.png' not found on input line 306.
-
-
-e:/Cambridge_Engineering/Part IIA/Coursework/3F1_Lab_Flight_Control/Report/FTR.tex:306: Package pdftex.def Error: File `Figure_FTR_2.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.306 ...phics[width=\textwidth]{Figure_FTR_2.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figure_FTR_3.png' not found on input line 313.
-
-
-e:/Cambridge_Engineering/Part IIA/Coursework/3F1_Lab_Flight_Control/Report/FTR.tex:313: Package pdftex.def Error: File `Figure_FTR_3.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.313 ...phics[width=\textwidth]{Figure_FTR_3.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[9]
+[9 <../Figures/Figure_FTR_2.png> <../Figures/Figure_FTR_3.png>]
 
 [10]
 
-[11]
-
-[12]
-
-LaTeX Warning: Reference `fig:fig2' on page 13 undefined on input line 377.
-
-
-LaTeX Warning: Reference `fig:nyq' on page 13 undefined on input line 377.
-
-
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 378.
+               Default added (so using `tbp') on input line 379.
+
+<../Figures/NyquistDiagram.jpg, id=300, 1277.77374pt x 1084.05pt>
+File: ../Figures/NyquistDiagram.jpg Graphic file (type jpg)
+<use ../Figures/NyquistDiagram.jpg>
+Package pdftex.def Info: ../Figures/NyquistDiagram.jpg  used on input line 382.
+(pdftex.def)             Requested size: 241.84842pt x 205.17766pt.
 
 
-LaTeX Warning: File `NyquistDiagram.jpg' not found on input line 381.
+[11{d:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <../Figures/NyquistDiagram.jpg>]
 
-
-e:/Cambridge_Engineering/Part IIA/Coursework/3F1_Lab_Flight_Control/Report/FTR.tex:381: Package pdftex.def Error: File `NyquistDiagram.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.381 ...dth, keepaspectratio]{NyquistDiagram.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Reference `fig:fig2' on page 13 undefined on input line 387.
-
-
-LaTeX Warning: Reference `fig:fig3' on page 13 undefined on input line 394.
-
-
-
-[13{d:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-
-[14] (./FTR.aux)
+[12] (./FTR.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-09>
  ***********
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `FTR.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `FTR.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  7546E407CD3BA3DDA062998E2D532125;11518.
+Package rerunfilecheck Info: File `FTR.out' has not changed.
+(rerunfilecheck)             Checksum: 7546E407CD3BA3DDA062998E2D532125;11518.
  ) 
 Here is how much of TeX's memory you used:
- 39891 strings out of 473254
- 943129 string characters out of 5722070
- 1541903 words of memory out of 5000000
- 62627 multiletter control sequences out of 15000+600000
+ 39516 strings out of 473254
+ 935360 string characters out of 5722070
+ 1542308 words of memory out of 5000000
+ 62250 multiletter control sequences out of 15000+600000
  562093 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,8n,93p,825b,544s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,9n,93p,1157b,544s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb>
-Output written on FTR.pdf (14 pages, 201866 bytes).
+Output written on FTR.pdf (12 pages, 847682 bytes).
 PDF statistics:
- 220 PDF objects out of 1000 (max. 8388607)
- 174 compressed objects within 2 object streams
- 75 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 396 PDF objects out of 1000 (max. 8388607)
+ 311 compressed objects within 4 object streams
+ 73 named destinations out of 1000 (max. 500000)
+ 441 words of extra memory for PDF output out of 10000 (max. 10000000)
 
