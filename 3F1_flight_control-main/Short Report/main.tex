@@ -40,9 +40,7 @@ num = [10], den = [1,10,0]
 \subsection{Modelling Manual Control}
 Controller transfer function = $ke^{-Ds}$
 \newline
-k = 1.56, D = 0.57
-\newline
-Phase margin = {30\degree}
+k = 1.56, D = 0.57, Phase margin = {30\degree}
 \newline
 Amount of extra time delay which can be tolerated = 0.338s
 \subsection{Pilot Induced Oscillation}
@@ -58,8 +56,7 @@ Phase at 0.66 Hz = -240\degree
 \subsection{Unstable Aircraft}
 Fastest pole at T = 0.6s
 \subsection{Autopilot with Proportion Control}
-Proportional gain $K_C$ = 16
-Period of oscillation $T_C$ = 2s
+Proportional gain $K_C$ = 16, Period of oscillation $T_C$ = 2s
 \subsection{Autopilot with PID Control}
 Transfer function of PID controller = $K_P(1+\frac{1}{sT_i}+sT_d)$
 \newline
@@ -104,14 +101,163 @@ back system is stable with a proportional gain greater than 0.5.}
 \subsection{(§2.5 An Unstable Aircraft) Sketch of a Nyquist diagram for G2(s). with a small
 time delay D.}
 \subsection{(§3.4 Integrator Wind-up) Explain how you calculated the bound on Q.}
-\section{Appendix}
-\subsection{Link to Jupyter Notebook}
+
+\newpage
+\appendix
+\section{Link to Jupyter Notebook}
 This \href{https://github.com/OliverJiang2025/3F1_Lab_Flight_Control.git}{link} goes to the worked Jupyter Notebook finished on the lab session.
-\subsection{Figures from Lab Session}
+
+\section{Figures from Lab Session}
+
+\begin{figure}[h]
+    \centering
+    % 第1行：Figure1-3.png
+    \begin{subfigure}[b]{0.28\textwidth}  % 缩小子图宽度，预留间距
+        \centering
+        \includegraphics[width=\linewidth]{Figure1.png}  % 带.png后缀
+        \caption{Supplementary Figure 1}
+        \label{fig:app-1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.28\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Figure2.png}
+        \caption{Supplementary Figure 2}
+        \label{fig:app-2}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.28\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Figure3.png}
+        \caption{Supplementary Figure 3}
+        \label{fig:app-3}
+    \end{subfigure}
+
+    % 第2行：Figure4-6.png
+    \vspace{0.3cm}  % 紧凑垂直间距
+    \begin{subfigure}[b]{0.28\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Figure4.png}
+        \caption{Supplementary Figure 4}
+        \label{fig:app-4}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.28\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Figure5.png}
+        \caption{Supplementary Figure 5}
+        \label{fig:app-5}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.28\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Figure6.png}
+        \caption{Supplementary Figure 6}
+        \label{fig:app-6}
+    \end{subfigure}
+
+    % 第3行：Figure7-8.png + 空占位
+    \vspace{0.3cm}
+    \begin{subfigure}[b]{0.28\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Figure7.png}
+        \caption{Supplementary Figure 7}
+        \label{fig:app-7}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.28\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Figure8.png}
+        \caption{Supplementary Figure 8}
+        \label{fig:app-8}
+    \end{subfigure}
+    \hfill
+    % 空占位（保持3列结构整齐）
+    \begin{subfigure}[b]{0.28\textwidth}
+        \centering
+        \mbox{}  % 空内容，不影响排版
+    \end{subfigure}
+
+    \caption{Supplementary figures 1--8 (continued on next page).}
+    \label{fig:app-page1}
+\end{figure}
+
+% ---------------------- 第2页：7张图（Figure9-15.png） ----------------------
+\begin{figure}[h]
+    \centering
+    % 第1行：Figure9-11.png
+    \begin{subfigure}[b]{0.28\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Figure9.png}
+        \caption{Supplementary Figure 9}
+        \label{fig:app-9}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.28\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Figure10.png}
+        \caption{Supplementary Figure 10}
+        \label{fig:app-10}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.28\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Figure11.png}
+        \caption{Supplementary Figure 11}
+        \label{fig:app-11}
+    \end{subfigure}
+
+    % 第2行：Figure12-14.png
+    \vspace{0.3cm}
+    \begin{subfigure}[b]{0.28\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Figure12.png}
+        \caption{Supplementary Figure 12}
+        \label{fig:app-12}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.28\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Figure13.png}
+        \caption{Supplementary Figure 13}
+        \label{fig:app-13}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.28\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Figure14.png}
+        \caption{Supplementary Figure 14}
+        \label{fig:app-14}
+    \end{subfigure}
+
+    % 第3行：Figure15.png（居中，避免单独一列溢出）
+    \vspace{0.3cm}
+    \begin{subfigure}[b]{0.28\textwidth}  % 与其他子图宽度一致
+        \centering
+        \includegraphics[width=\linewidth]{Figure15.png}
+        \caption{Supplementary Figure 15}
+        \label{fig:app-15}
+    \end{subfigure}
+    % 左右空占位，让第15张图居中
+    \hfill
+    \begin{subfigure}[b]{0.28\textwidth}
+        \centering
+        \mbox{}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.28\textwidth}
+        \centering
+        \mbox{}
+    \end{subfigure}
+
+    \caption{Supplementary figures 9--15 (continued from previous page).}
+    \label{fig:app-page2}
+\end{figure}
 
 
 
 
+\newpage
 \begin{thebibliography}{99}
 
     \bibitem{cued} EIETL, CUED
