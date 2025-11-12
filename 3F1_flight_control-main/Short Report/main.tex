@@ -1,0 +1,133 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\graphicspath{{../Figures/}}
+\usepackage{tikz}
+\usepackage{amssymb}
+\usepackage{circuitikz}
+\usepackage{setspace}
+\usepackage{gensymb}
+\usepackage{hyperref}
+\usepackage{subcaption}
+\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue}
+\doublespacing{}
+\usepackage{wrapfig}
+\textwidth 15.5cm \oddsidemargin 0cm \topmargin -1cm \textheight
+24cm \footskip 1.5cm \usepackage{epsfig}
+\usepackage{amsmath,graphicx,psfrag,pstcol}
+\usepackage{hyperref}
+\def\n{\noindent}
+\def\u{\underline}
+\def\hs{\hspace}
+\newcommand{\thrfor}{.^{\displaystyle .} .}
+\newcommand{\bvec}[1]{{\bf #1}}
+\usepackage{listings} 
+\usepackage{xcolor}
+
+\begin{document}
+
+
+\begin{center}
+{\bf ENGINEERING TRIPOS PART IIA}
+\end{center}
+\vspace{0.5cm} {\bf EIETL \hfill MODULE EXPERIMENT 3F1}
+\vspace{0.5cm}
+\begin{center}
+{\bf FLIGHT CONTROL\\
+\vspace{0.5cm}
+Short  Report\\\hfill \\
+Name: Yongqing Jiang\\\hfill\\
+College: Peterhouse\\\hfill\\
+crsid: yj375
+}
+\end{center}
+
+
+\section{Lab Worksheet}
+\subsection{Simplified Aircraft Model}
+Transfer function = $\frac{10}{s^2+10s}$
+\newline
+num = [10], den = [1,10,0]
+\subsection{Modelling Manual Control}
+Controller transfer function = $ke^{-Ds}$
+\newline
+k = 1.56, D = 0.57
+\newline
+Phase margin = {30\degree}
+\newline
+Amount of extra time delay which can be tolerated = 0.338s
+\subsection{Pilot Induced Oscillation}
+Period of oscillation (observed) = 4.44s
+\newline
+Period of oscillation (theoretical) = 4.488s
+\subsection{Sinusoidal Disturbances}
+Maximum stabilising gain = 0.422
+\newline
+Gain at 0.66 Hz = 9dB   
+\newline
+Phase at 0.66 Hz = -240\degree
+\subsection{Unstable Aircraft}
+Fastest pole at T = 0.6s
+\subsection{Autopilot with Proportion Control}
+Proportional gain $K_C$ = 16
+Period of oscillation $T_C$ = 2s
+\subsection{Autopilot with PID Control}
+Transfer function of PID controller = $K_P(1+\frac{1}{sT_i}+sT_d)$
+\newline
+PID constants: $K_P$ = 9.6, $T_i$ = 1, $T_d$ = 0.25
+\newline
+Adjusted value of $T_d$ = 0.35
+\subsection{Integrator Wind-up}
+Integrator bound Q = 0.2
+\newpage
+\section{Lab Report}
+\subsection{(§2.2 Modelling Manual Control) Nyquist diagram (from Bode diagram) for
+controller in series with plant.}
+From Figure \ref{fig:fig2}, in which the upper graph is the magnitude plot while the lower graph is the phase plot. Information contained in this two plot are combined to give the shape of Nyquist Diagram of $K(j\omega)G(j\omega)$, which is given in Figure \ref{fig:nyq}.
+\begin{figure}[]  % 强制固定在当前位置
+    \centering  % 居中显示
+    % 图片宽度为文本宽度的70%，保持比例
+    \includegraphics[width=0.5\textwidth, keepaspectratio]{NyquistDiagram.jpg}
+    \caption{Nyquist Diagram of $K(j\omega)G(j\omega)$}  % 标题
+    \label{fig:nyq}  % 标签（用于引用）
+\end{figure}
+It is clear that the Nyquist Diagram behaves in a spiral shape approaching the origin point of the Argand Diagram. It is due to $e^{-j\omega D}$ term which rises an exponential decay of magnitude while keeping the curve "rotating" as 
+$\omega \to \infty$.
+Besides, it is worth noting that the Nyquist diagram does not encircle $(-1,j0)$ according to the magnitude plot in Figure \ref{fig:fig2}. By Nyquist Stability Criteria, this closed loop system is stable.
+
+
+\subsubsection{(§2.2 Modelling Manual Control) Are you using any integral action? Give a brief
+explanation. What does this imply about the accuracy of the model of the human
+controller?}
+Integral action was used.
+As shown by Figure \ref{fig:fig3}, it is clear that an integral action was used. Starting from around 4.7s, the orange $u(t)$ curve, which represents the manual control signal, maintains at around 5 to attempting to stabilize $e(t)$ to 0. This is an integral control because both the $e(t)$ and $\frac{de(t)}{dt}$ are zero afterwards. $u(t) = k_i \int e(t)dt$ for some $k_i$ here.
+
+
+\subsection{(§2.3 Pilot Induced Oscillation) Explain the oscillation of the feedback loop. How
+does your observed period of oscillation compare to the theoretical prediction?}
+\subsection{(§2.3 Pilot Induced Oscillation) Can you give a rough guideline to the control
+designer to make PIO less likely?}
+\subsection{(§2.4 Sinusoidal Disturbances) Was your manual input able to reduce the error
+(as compared to providing no input)?}
+\subsection{(§2.5 An Unstable Aircraft) Nyquist diagram for G2(s).}
+\subsection{(§2.5 An Unstable Aircraft) Explain, using the Nyquist criterion, why the feed-
+back system is stable with a proportional gain greater than 0.5.}
+\subsection{(§2.5 An Unstable Aircraft) Sketch of a Nyquist diagram for G2(s). with a small
+time delay D.}
+\subsection{(§3.4 Integrator Wind-up) Explain how you calculated the bound on Q.}
+\section{Worked Jupyter Notebook}
+This \href{https://github.com/OliverJiang2025/3F1_Lab_Flight_Control.git}{link} goes to the worked Jupyter Notebook finished on the lab session.
+\begin{thebibliography}{99}
+
+    \bibitem{cued} EIETL, CUED
+
+\end{thebibliography}
+
+\vspace*{1cm}
+
+
+
+\end{document}
+
